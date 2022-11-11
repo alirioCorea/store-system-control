@@ -2,6 +2,10 @@
   "name": "store-system-control",
   "version": "0.1.0",
   "private": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +19,10 @@
   },
   "devDependencies": {
     "eslint": "8.27.0",
-    "eslint-config-next": "13.0.3"
+    "eslint-config-next": "13.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
